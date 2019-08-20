@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,  
+    "name": "Tabs Memento",
+    "version": "0.1",
+    "description": "Remember open tabs last time Chrome closed",
+    "permissions": ["storage","tabs"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    }
+  }
