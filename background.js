@@ -12,7 +12,7 @@ var getMementos = function (callback) {
         }
     });
 }
-
+ 
 var clearLocalstorage = function () {
     chrome.storage.local.clear();
 }
