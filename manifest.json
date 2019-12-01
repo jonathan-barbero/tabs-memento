@@ -2,10 +2,20 @@
     "manifest_version": 2,  
     "name": "Tabs Memento",
     "version": "0.1",
-    "description": "Remember open tabs last time Chrome closed",
+    "description": "Does your company policies do not let you configure Chrome to automatically save the opened tabs for the next time you open the browser?<br/>Here is the extension that lets you to save the opened tabs for the next time you want to open them. Click on extension button, click 'Save' and the extension will remember all the open tabs at that moment. When you want to recover that tabs click 'Restore' and uala!",
     "permissions": ["storage","tabs"],
     "background": {
       "scripts": ["background.js"],
       "persistent": false
+    },
+    "icons": {
+      "16": "images/16.png",
+      "32": "images/32.png",
+      "48": "images/48.png",
+      "128": "images/128.png"
+    },
+    "browser_action": {
+      "default_title": "Tabs Memento",
+      "default_popup": "popup.html"
     }
   }
